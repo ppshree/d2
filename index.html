@@ -1,72 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Responsive Navigation Bar</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="./extra.css">
 </head>
 <body>
- <header>
-   <div class="logo">DAMBARUU</div>
-   <div>
-     <nav>
-       <a href="#">Home</a>
-       <a href="#">Features</a>
-       <a href="#">Our App</a>
-       <a href="#">Testimonial</a>
-       <a href="#">contact us</a>
-     </nav>
-   </div>
-   <div>
-     <button class="btn">
-       <a href="http://app.dambaruu.com/">Log in</a>
-      </button></div>
- </header>
+  <header id="header"><!--header-start-->
+    <div class="container">
+      <div class="header_left">
+        <a class="logo" href="#"><img src="image/logo.png" alt="logo"></a>
+      </div>
+      <div class="header_right">
+        <label for="menuTrigger" class="nav_ico"><i class="fa fa-bars"></i></label>
+        <input id="menuTrigger" type="checkbox" name="">
+        <nav class="main_nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Our App</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </nav>    
+      </div>
+      <div class="header_left">
+        <a class="log" href="#"><img src="image/reslog2.png" alt="log"></a>
+      </div>
+      <div class="header_left">
+        <a class="log2" href="#"><img src="image/biglog.png" width="110" alt="log"></a>
+      </div>
+    </div>
+  </header><!--header-end-->
  <hr>
  <main>
-  <div class="arrow"><img src="image/arrow.svg" alt=""></div>
+  <div class="arrow"><img src="image/arrow.svg" width="60" alt=""></div>
   <div class="cap"><img src="image/cap.svg" alt=""></div>
+  <div class="book"><img src="image/book.png" alt=""></div>
+  <div class="bag"><img src="image/bag.png" alt=""></div>
    <div class="d1">
    <div class="d12">
-     <h1>Better Future For Your Kids</h1>
-     <p>Let the child be the director and the actor in his own play</p>
-     <button class="btn">
+     <h1>Learning Made Fun</h1>
+     <p>Reimagine the way you learn through Stories, Rhymes, Games, and loads of Fun Activitiesy</p>
+     <button class="btn2">
       <a href="http://app.dambaruu.com/"> Get Started</a></button>
    </div>
    <div class="chandtara">
-     
-     <div class="tara-circle"></div>
-    <div class="tara">
-      <img src="image/tara.svg" alt="">
-      <div class="chand-circle"></div>
-      <div class="chand">
-        <img src="image/chand.svg" alt="">
-       </div>
+    <img src="image/chandtara.png" height="" alt="">
+    
     </div>
+    <div class="student">
+      <div class="student-av"><img src="image/studentav.png" width="40" alt=""></div>
+      <div class="student-text">
+        <h1>59K+</h1>
+        <p>Total active students and learning from the our app.</p>
+      </div>
+    </div>
+   <div class="activestudent">
+     <div class="mukuavtar"><img src="image/mukuimg.png" width="300" alt=""></div>
+   </div>
+   
+   <div class="downarrow"><img src="image/downarrow.png" width="40" alt=""></div>
+   <div class="uparrow"><img src="image/uparrow.png" width="40" alt=""></div>
+   <div class="download">
+    <div class="download-av"><img src="image/downloadav.png" width="40" alt=""></div>
+    <div class="download-text">
+      <h1>1.1M+</h1>
+      <p>Total download the dambaruu app with good review.</p>
+    </div>
+  </div>
+  
    
    </div>
   </div>
-  <br><br><br>
-  <div>
+  
+  <div class="section2">
     <div class="d2">
       <h1>Book your Free Class</h1>
       <p>Learn from India’s best teachers</p>
     </div>
     <div class="c1">
       <div class="c12">
-        <img src="image/tara1.svg" alt="">
-        <img src="image/chand1.svg" alt="">
+        <div class="letter"><img src="image/letter.png" width="200" alt=""></div>
+        <div class="chandtara2"> <img src="image/chandtara2.png" width="400" alt=""></div>
+       
+        
        
       </div>
       <div class="c13">
-        <form>
-          <h1>Enter Your Details</h1>
+       
+         <form>
+           <div class="form-details">
+             <div><img src="image/lineleft.png" width="200" alt=""></div>
+             <div> <h1 class="form-heading">Enter Your Details</h1></div>
+             <div><img src="image/lineright.png" width="200" alt=""></div>
+           </div>
+         
           <br>
           <label for="fname">Enter Name of your child</label><br> <br>
           <input type="text" id="fname" name="fname" value=""><br> <br>
@@ -82,52 +114,52 @@
           <br><br>
           <input class="submit" type="submit" value="Submit">
         </form> 
-        
       </div>
     </div>
   </div>
-  <br><br><br><br><br>
-  <section  class="user-section">
+ 
+  <section class="whyuse-section">
     <div class="d2">
       <h1>Why use dambaruu</h1>
       <p>Let’s see the our platform features and functionally in the app.</p>
     </div>
-    <br><br>
-    <div class="card-container">
-      <div class="card">
-        <div class="e1">
-          <img src="image/pic01.svg" alt="">
-          <h2>01</h2>
-        </div>
-        <h3>Register online</h3>
-        <p>Its never been easier for familes to register and pay for programs, regardless of the device.</p>
-      </div>
-      <div class="card">
-        <div class="e1">
-          <img src="image/pic01.svg" alt="">
-          <h2>02</h2>
-        </div>
-        <h3>Family Access</h3>
-        <p>gives parents and students on-line access to student information, including test scores, attendance, class schedules, and immunization records.</p>
-      </div>
-      <div class="card">
-        <div class="e1">
-          <img src="image/pic01.svg" alt="">
-          <h2>03</h2>
-        </div>
-        <h3>Communication</h3>
-        <p>Easily engage with famililes acress your community with both text messages and email.</p>
-      </div>
-      <div class="card">
-        <div class="e1">
-          <img src="image/pic01.svg" alt="">
-          <h2>04</h2>
-        </div>
-        <h3>Family Access</h3>
-        <p>Advanced reporting your children’d growth and improvement with analytics system.</p>
-      </div>
+    <div class="whyuse-img">
+      <div class="whyuse-imglist"><img src="image/whyuse1.png" width="370" alt=""></div>
+      <div class="whyuse-imglist"><img src="image/whyuse2.png"  width="370" alt=""></div>
+      <div class="whyuse-imglist"><img src="image/whyuse3.png"  width="370" alt=""></div>
+      
     </div>
   </section>
+  <section class="count-section">
+    <!-- <h1 class="count-header">Count Section</h1> -->
+    <div class="count-section-bottom">
+    <h3 class="count-header3">Start Learn anything, anywhere, any time.</h3>
+    <p class="count-text">Get unlimited access to structures courses & doubt clearing sessions</p>
+    <br><br><br>
+    <div class="count-img"><img src="image/count1.png" width="800" height="200" alt=""></div>
+  <button class="btn-learning">Start learning</button>
+  </div></section>
+  
+  <br><br><br><br>
+  <section class="modules-section">
+   
+    <div class="module-div">
+      <div class="d2">
+        <h1>Our Learning Modules</h1>
+        <div class="img-flex">
+      <div class="module-img"><img src="image/stories1.png" width="1230" height="400" alt="">
+      </div>
+      <div class="module-img"><img src="image/health1.png" width="1230" height="400" alt="">
+      </div>
+      <div class="module-img"><img src="image/lang2.png" width="1230" height="400" alt="">
+     </div>
+      <div class="module-img"><img src="image/rhy2.png" width="1230" height="400" alt="">
+     </div>
+      <div class="module-img"><img src="image/math.png" width="1230" height="400" alt="">
+      </div></div>
+    </div>
+  </section>
+  <br><br><br>
   <section class="dambaruu">
     <div class="f1">
       <h2>Our app</h2><br>
@@ -139,10 +171,11 @@
           <div class="apple-content">
             <p>Download on the</p>
             <h3>Appstore</h3>
-          </div>
+          </div> 
         </div>
+        <div class="apple-logo"><img src="img/applelogo.png" alt=""></div> 
         <div class="apple">
-          <div style="font-size: 40px;"><i class="fab fa-google-play"></i></div>
+           <div style="font-size: 40px;"><i class="fab fa-google-play"></i></div>
           <div class="apple-content">
             <p>Get it on</p>
             <h3>Google Play</h3>
@@ -150,9 +183,9 @@
         </div>
       </div>
     </div>
-    <div class="f2">
-      <img src="image/dambaruu1.svg" alt="">
-      <img src="image/dambaruu2.svg" alt="">
+    <div class="mobilebody">
+      <img src="image/mobileimg.png" width="800" alt="">
+     
     </div>
   </section>
   <section class="client">
@@ -164,7 +197,7 @@
         <h1><span><</span>  ></h1>
       </div>
       <div class="clients-card-wrapper">
-        <div><img src="image/client1.svg" alt="">client1</div>
+        <div><img src="image/client1.svg" alt="client1"></div>
         <div class="clients-card">
           <h1>Hannnah Schmitt</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in elit morbi massa lorem ullamcorper. Est gravida nibh suspendisse pharetra bibendum.</p>
@@ -181,7 +214,8 @@
  <footer>
    <div class="footer">
      <div class="left">
-       <h1>DAMBARUU</h1>
+       <div class="logo-footer"><img src="image/logowhite.png" alt="client2"></div>
+      
        <hr>
        <div class="icon-social">
         <i class="fab fa-facebook"></i>
