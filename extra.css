@@ -701,7 +701,7 @@ span {
 
     margin-top: 0%;
 
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 700;
   }
@@ -964,7 +964,7 @@ span {
   .mobilebody > img {
     height: 80%;
     margin-left: 10%;
-    margin-top: -110%;
+    margin-top: -120%;
    
   }
   .f1 > h2 {
