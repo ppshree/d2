@@ -634,7 +634,7 @@ span {
   }
 }
 /*This Media Query use for Mobile View*/
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 667px) {
   body {
     font-family: sans-serif;
     width: 95%;
