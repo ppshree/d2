@@ -1424,7 +1424,7 @@ span {
     width: 80%;
     height: 0%;
     border-radius: 15px;
-    padding: 5px 15px 0 15px;
+    padding: 0px 15px 0 10px;
     margin-right: 5px;
   }
   .apple-content {
