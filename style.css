@@ -979,7 +979,7 @@ span {
       #menuTrigger:checked + .main_nav {
         transform: translateX(0%);
       }
-      .d1 {
+       .d1 {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -987,12 +987,15 @@ span {
         margin-top: 20%;
         text-align: center;
       }
-    
+    .chand-tara2>img{
+      margin-top: -15%;
+      margin-left: 5%;
+    }
       .d1 > div > h1 {
         color: #194792;
     
         margin-top: 0%;
-    margin-left: 15%;
+    margin-left: 12%;
         font-size: 25px;
        
         font-weight: 700;
