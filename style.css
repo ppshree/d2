@@ -1283,6 +1283,9 @@ span {
     color: #184691;
     cursor: pointer;
   }
+  .field{
+    text-align: left;
+  }
   .submit {
     color: white;
     background-color: #194792;
@@ -1311,7 +1314,7 @@ span {
   }
   .count-img > img {
     width: 600px;
-    height: 100px;
+    height: 88px;
   }
   .btn-learning {
     background: #194792;
@@ -1390,8 +1393,9 @@ span {
   }
   .mobilebody > img {
     height: 80%;
-    margin-left: 10%;
+    margin-left: 22%;
     margin-top: -125%;
+    text-align: center;
   }
   .f1 > h2 {
     color: #194792;
