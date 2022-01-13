@@ -1206,7 +1206,7 @@ span {
 
     background-color: #d8e6ff;
     height: 35%;
-    width: 90%;
+    width: 98%;
 
     margin-left: 0px;
 
@@ -1451,9 +1451,11 @@ span {
     color: #194792;
     width: 100%;
     margin-left: 0px;
+    margin-top: -4%;
+    font-size: 19px;
   }
   .clients-name > h1 > span {
-    font-size: 23px;
+    font-size: 19px;
     color: #a4a4a4;
   }
   .clients-wrapper {
