@@ -23,6 +23,12 @@ img {
 .video-icon{
   margin-left: 50%;
 }
+.contactus{
+  margin-top: 50%;
+}
+#features{
+  margin-top: 10%;
+}
 .d1 > div > h1 {
   color: #194792;
   margin-bottom: 2rem;
@@ -886,6 +892,12 @@ span {
   }
   .video-icon{
     margin-left: 0%;
+  }
+  #contactus{
+    margin-top:0%;
+  }
+  #features{
+    margin-top:20%;
   }
   .d1 > div > h1 {
     color: #194792;
